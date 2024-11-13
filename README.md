@@ -104,9 +104,7 @@ Terraform을 사용해 인프라를 코드로 관리하고, AWS 클라우드 서
 
 
 ## 🧱아키텍처
-![architecture.png](images/architecture.png)
-
-
+[[![architecture.png](images/architecture.png)](https://github.com/soonge97/3rd-Project/issues/1#issue-2656336184)](https://github.com/soonge97/3rd-Project/issues/1#issue-2656336184)
 
 
 
