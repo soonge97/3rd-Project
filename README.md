@@ -1,6 +1,5 @@
 # Terraform 활용한 하이브리드 클라우드 3-Tier 웹 서비스 구축
 
-한국정보교육원 3rd-Project
 
 ## 🖥️ 프로젝트 소개
 
@@ -20,7 +19,7 @@ Terraform을 사용해 인프라를 코드로 관리하고, AWS 클라우드 서
 
 | Name | 임희진 | 이재혁 | 황기창 |
 | :------------: | :------------: | :------------: | :------------: |
-|  | <img src="https://avatars.githubusercontent.com/u/174424101?v=4" width="150" /> | <img src="https://avatars.githubusercontent.com/u/174182609?v=4" width="150" /> | <img src="https://avatars.githubusercontent.com/u/175070823?v=4" width="150" /> |
+|  | ![임희진4](https://github.com/user-attachments/assets/685032f2-ef80-4e27-b0e4-b1e7c1de232b) | ![이재혁4](https://github.com/user-attachments/assets/ae5f9148-cb99-4322-8563-c120e89a7b8f) | ![황기창4](https://github.com/user-attachments/assets/7d7f190c-9ed3-4109-8361-b85141b9f88e) |
 | __Position__ | Project Leader | Technology Leader| Engineer|
 
 
@@ -110,9 +109,47 @@ Terraform을 사용해 인프라를 코드로 관리하고, AWS 클라우드 서
 
 
 ## 🌐PAGE
---PAGE
-![index.jpeg](images/index.jpeg) ![rollingupdate.jpeg](images/rollingupdate.jpeg)
-![signup.jpeg](images/signup.jpeg) ![login.jpeg](images/login.jpeg)
-![admin.jpeg](images/admin.jpeg) ![introduce.jpeg](images/introduce.jpeg)
-![category.jpeg](images/category.jpeg)
+* 메인
+![main](https://github.com/user-attachments/assets/96d12c60-303f-43aa-878d-529cfa3af879)
 
+* 회원가입
+![signup](https://github.com/user-attachments/assets/71703698-b275-4023-8522-18d7b6ccf3a6)
+
+* 로그인
+![login](https://github.com/user-attachments/assets/9677e526-100e-4d74-b66b-da97f03ea029)
+
+* 주문
+![order1](https://github.com/user-attachments/assets/398a3a1b-84e2-44d7-9fac-27a0a931407d)
+![order2](https://github.com/user-attachments/assets/38142566-6c7a-49b3-92e1-209ba20982f2)
+
+* 예약
+![reservation1](https://github.com/user-attachments/assets/611ceb9d-7467-4364-a23b-c77bd22181d9)
+
+* 관리자 전용 페이지
+![reservation2](https://github.com/user-attachments/assets/7ca37b6d-2539-4af0-8878-598bf6df85e9)
+
+## 🧪테스트 영상
+
+테스트 영상은 용량 문제로 화질이 낮아 산출물에 따로 첨부합니다.
+
+* Redis 적용
+
+![Redis](https://github.com/user-attachments/assets/e6cbeb7d-da8b-49da-b6d5-b97a80e2be3b)
+
+* 롤링업데이트 및 롤백
+  
+![롤백](https://github.com/user-attachments/assets/254cafa6-b660-42e1-a24c-b1d705033493)
+
+* 부하테스트 및 Whatap 모니터링
+
+![부하테스트 및 Whatap 모니터링](https://github.com/user-attachments/assets/fa3cd54d-1fa3-499f-bafc-88482725109b)
+
+
+## 📦산출물
+* WBS
+* 관리대장
+* Terraform 소스코드
+* Dockerfile
+* yaml
+* 테스트 영상
+* 기술보고서
