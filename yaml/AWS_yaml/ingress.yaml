@@ -1,0 +1,66 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: yas24
+  namespace: web
+  annotations:
+    kubernetes.io/ingress.class: alb
+    alb.ingress.kubernetes.io/scheme: internet-facing
+    alb.ingress.kubernetes.io/target-type: ip
+    alb.ingress.kubernetes.io/certificate-arn: arn:aws:acm:ap-northeast-2:730335572979:certificate/518c1a58-fecf-43a6-b939-69531a99bfb4
+    alb.ingress.kubernetes.io/listen-ports: '[{"HTTP": 80}, {"HTTPS":443}]'
+    alb.ingress.kubernetes.io/ssl-redirect: '443'
+spec:
+  ingressClassName: alb
+  rules:
+  - http:
+      paths:
+      - path: /main.jsp
+        pathType: Prefix
+        backend:
+          service:
+            name: svc-web-main
+            port:
+              number: 80
+      - path: /img
+        pathType: Prefix
+        backend:
+          service:
+            name: svc-web-main # Tomcat이 정적 파일을 서빙하는 서비스
+            port:
+              number: 80
+      - path: /font
+        pathType: Prefix
+        backend:
+          service:
+            name: svc-web-main # Tomcat이 정적 파일을 서빙하는 서비스
+            port:
+              number: 80
+      - path: /signup.jsp
+        pathType: Prefix
+        backend:
+          service:
+            name: svc-web-signup
+            port:
+              number: 80
+      - path: /login.jsp
+        pathType: Prefix
+        backend:
+          service:
+            name: svc-web-login
+            port:
+              number: 80
+      - path: /order.jsp
+        pathType: Prefix
+        backend:
+          service:
+            name: svc-web-order
+            port:
+              number: 80
+      - path: /reservation.jsp
+        pathType: Prefix
+        backend:
+          service:
+            name: svc-web-reservation
+            port:
+              number: 80
