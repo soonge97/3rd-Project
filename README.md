@@ -138,9 +138,6 @@ Terraform을 사용해 인프라를 코드로 관리하고, AWS 클라우드 서
 ![reservation2](https://github.com/user-attachments/assets/7ca37b6d-2539-4af0-8878-598bf6df85e9)
 
 ## 🧪 테스트 영상
-
-테스트 영상은 용량 문제로 화질이 낮아 산출물에 따로 첨부합니다.
-
 * Redis 적용
 
 ![Redis](https://github.com/user-attachments/assets/e6cbeb7d-da8b-49da-b6d5-b97a80e2be3b)
@@ -155,10 +152,14 @@ Terraform을 사용해 인프라를 코드로 관리하고, AWS 클라우드 서
 
 
 ## 📦 산출물
-* WBS
-* 관리대장
+JSP는 용량문제로 코드만 첨부합니다.
+PPT는 용량문제로 분할 첨부합니다.
+
 * Terraform 소스코드
 * Dockerfile
 * yaml
-* 테스트 영상
+* JSP
+* WBS
+* 관리대장
 * 기술보고서
+* PPT
