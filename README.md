@@ -82,6 +82,8 @@ Terraform을 사용해 인프라를 코드로 관리하고, AWS 클라우드 서
   <img src="https://img.shields.io/badge/amazonrds-000000?style=for-the-badge&logo=amazonrds&logoColor=#527FFF"/> <!--RDS-->  
   <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=Redis&logoColor=white"/> <!--Redis-->  
   <img src="https://img.shields.io/badge/Amazon%20EC2-FF9900?style=for-the-badge&logo=Amazon%20EC2&logoColor=white"/> <!--EC2-->
+  <img src="https://img.shields.io/badge/EFS-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="EFS"/> <!--EFS-->
+  <img src="https://img.shields.io/badge/Amazon_ECR-FF4F00?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="ECR"/> <!--ECR-->
   <img src="https://img.shields.io/badge/linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/> <!--Linux--> 
   <img src="https://img.shields.io/badge/OpenSwan-006F7A?style=for-the-badge&logo=OpenSwan&logoColor=white"/> <!--OpenSwan-->
   <img src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white"/> <!--MariaDB-->
