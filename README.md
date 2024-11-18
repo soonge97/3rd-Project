@@ -141,15 +141,19 @@ Terraform을 사용해 인프라를 코드로 관리하고, AWS 클라우드 서
 
 ## 🧪 테스트 영상
 * Redis 적용
+
 ![Redis](https://github.com/user-attachments/assets/d0b62eff-ca75-41e2-92fc-bb868ea6b2af)
 
 * 롤링업데이트
+
 ![롤링업데이트](https://github.com/user-attachments/assets/8879a8f5-8b1d-4337-9db5-1b95d9228102)
 
 * 롤백
+
 ![롤백](https://github.com/user-attachments/assets/be4272cf-b9fe-4a7d-a445-3305287a3a4b)
 
 * 부하테스트 Whatap 모니터링
+
 ![부하테스트 및 Whatap 모니터링](https://github.com/user-attachments/assets/7e8a17ec-01e2-4bca-b3fc-5a756d373f3c)
 
 
