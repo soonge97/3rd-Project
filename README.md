@@ -39,6 +39,7 @@ Terraform을 사용해 인프라를 코드로 관리하고, AWS 클라우드 서
 | **Terraform**         | 인프라를 코드로 관리하기 위해 Terraform을 도입하여 IaC를 실현하고, Shell Script와 병합하여 인프라 자동화 구축이 가능합니다. |
 | **Hybrid Cloud**      | 클라우드와 온프레미스 서버를 통합한 하이브리드 구성으로 데이터 보안과 접근 제어가 강화되었으며, 확장성과 유연성 있는 인프라 관리가 가능합니다. |
 | **Private Server**    | 관리자 전용 예약 관리 시스템을 위해 온프레미스에 프라이빗 서버를 구축하여 보안성을 확보했습니다. |
+| **Shell Script**      | Shell Script를 제작하여 On-Premise 인프라를 자동화 구축하였습니다. |
 | **Site-to-Site VPN** | OpenSwan을 이용해 AWS 클라우드와 온프레미스 간 Site-to-Site VPN을 구축하여 안전한 네트워크 통신을 가능하게 했습니다. |
 | **DMS**            | 온프레미스 데이터베이스를 AWS로 이전하고 실시간 동기화를 위해 AWS DMS를 활용하여 서비스 중단 없이 안정적으로 마이그레이션을 완료했습니다. |
 | **CI/CD Pipeline** | ArgoCD, GitHub, GitHub Actions, Terraform Cloud를 연동하여 자동화된 CI/CD 배포 시스템을 구축해 빠르고 안정적인 배포를 지원합니다. |
@@ -166,6 +167,7 @@ PPT는 용량문제로 분할 첨부합니다.
 * Terraform 소스코드
 * Dockerfile
 * yaml
+* Shell Script
 * JSP
 * WBS
 * 관리대장
